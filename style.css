@@ -1,7 +1,20 @@
+/*Reset CSS simples*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.principalApresentacao{
+    display: flex;
+    align-items: center;
+}
+
 body{
-    background-color: black;
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: #000000;
     color: beige;
 }
-strong{
-    color: lime;
+.tituloDestaque{
+    color: #22d4fd;
 }
