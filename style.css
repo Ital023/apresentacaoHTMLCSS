@@ -5,7 +5,20 @@
     margin: 0;
     padding: 0;
 }
-
+.cabecalho{
+    padding: 2% 0 0 15%;
+}
+.cabecalho__menu{
+    display: flex;
+    gap: 80px;
+}
+.cabecalho__menu__link{
+    color: #22D4FD;
+    font-family: 'Montserrat',sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    text-decoration: none;
+}
 
 body{
     /* height: 100vh; */
@@ -14,7 +27,7 @@ body{
     color: #f6f6f6;
 }
 .apresentacao{
-    margin: 8% 15%;
+    margin: 5% 15%;
     display: flex;
     align-items: center;
     justify-content: space-between;
